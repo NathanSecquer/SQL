@@ -1,0 +1,12 @@
+CREATE TABLE Products (sku INTEGER, name TEXT, cost INTEGER);
+
+INSERT INTO Products VALUES (6502175, "HP Laptop", 349.99);
+INSERT INTO Products VALUES (6412322, "Bella Air Fryer", 19.99);
+INSERT INTO Products VALUES (6291882, "Cookware", 49.99);
+INSERT INTO Products VALUES (6415044, "Bella Chopper", 12.99);
+INSERT INTO Products VALUES (6413297, "AAXA Projector", 135.99);
+INSERT INTO Products VALUES (6492860, "Shark ION", 149.99);
+INSERT INTO Products VALUES (6477036, "Tineco Pure One", 229.99);
+INSERT INTO Products VALUES (6459243, "Corsair RM750", 104.99);
+
+SELECT SUM(cost) FROM Products;
